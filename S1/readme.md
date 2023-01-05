@@ -77,3 +77,35 @@ The 2 former are the oldest, with bigger communities yet with older frameworks, 
 
 Pytorch will be used as it is a bit simpler and it is eminently used in reaearchs & publications.
 
+Pytorch uses Tensors in a similar way as Numpy uses Arrays. It makes it easy to use the GPU processing power, also gradients computation module and neural networks module.
+
+NEURAL NETWORKS
+Built with neurons,  which act as individual units, which has a number of inputs that are added together in order to get the unit output.
+It looks like a vector product row*col.
+
+TENSORS: They are multidimensional data container: vector (1D tensor), matrix (2D tensor), array with 3 indexes (3D Tensor).
+
+unit_input = SUM(weights*features)+bias
+unit_output = activation_fnc(unit_input)
+
+Matrix multiplication can be done directly with torch.mm() or torch.matmul(). But it requires to the tensors to have the right shapes.
+
+INPLACE OPERATIONS: Operations with TENSORS where the operation is followed by a underscore. "Operation_()"
+* With Out making a copy *
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
